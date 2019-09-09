@@ -1,0 +1,59 @@
+body{
+  
+    
+    padding: 5%;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.recipe-item{
+    display: flex;
+ 
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+
+}
+.recipe-text{
+    display: inline-block;
+    text-align: left;
+    padding-right: 10px;
+    width: 450px;
+}
+.recipe-image{
+    display: inline-block;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border:2px solid black;
+    border-radius: 2px;
+}
+.star{
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.link{
+    position: absolute;
+    left:30px;
+    top:30px;
+}
+.form-inline label{
+    margin-right: 5px;
+    color:red;
+    font-size: 20px;
+}
+.form-inline .form-control {
+   
+    margin-right: 7px;
+}
